@@ -1,0 +1,23 @@
+# Não é possivel criar uma variável com palavras reservadas:
+  let let = "let";
+  const const = "const";
+  var var = "var";
+  let if = "if";
+  let else = "else";
+  let for = "for";
+
+
+# Não pode começar com número:
+  1nome = "Henrique";
+  1nome = "Maria";
+
+
+# Não pode conter espaço:
+  no me = "Henrique da Silva";
+
+
+# Não pode conter caracteres especiais:
+  nome = "Henrique!@#$%¨&*()_+";
+
+
+# Variáveis são case sensitive
