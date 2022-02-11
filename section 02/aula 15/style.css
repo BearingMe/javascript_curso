@@ -1,0 +1,10 @@
+#app {
+  position: fixed;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#app p {
+  line-height: 30px;
+}
