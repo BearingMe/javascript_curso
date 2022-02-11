@@ -1,0 +1,37 @@
+# Tipos de dados
+  - string: 
+    desc: uma string é uma sequência de caracteres.
+    example: "hello world"
+
+  - number:
+    desc: um número é um número real ou inteiro.
+    example: 3.14
+
+  - boolean:
+    desc: um valor booleano é um valor lógico, verdadeiro ou falso.
+    example: true
+
+  - array:
+    desc: um array é uma lista de elementos.
+    example: [1, 2, 3]
+
+  - object:
+    desc: um objeto é uma coleção de pares chave/valor.
+    example: { name: 'John', age: 34 }
+
+  - function:
+    desc: uma função é um bloco de código que pode ser executado.
+    example: function() { console.log('Hello World'); }
+
+  - null:
+    desc: um valor nulo é um valor que não existe.
+    example: null
+
+  - undefined:
+    desc: um valor que não foi definido.
+    example: undefined
+
+# Notas
+  - Em JavaScript o tipo de dados é dinâmico.
+  - Não existe separação entre números inteiros e reais.
+  - Null é diferente de undefined.
