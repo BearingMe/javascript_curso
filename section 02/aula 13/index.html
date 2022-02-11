@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ex. Aula 13</title>
+</head>
+
+<body>
+  <script>
+    function write(text) {
+      const body = document.querySelector('body');
+      const p = document.createElement('p');
+
+      p.textContent = text;
+
+      body.appendChild(p);
+    }
+
+    const nomeCompleto = prompt("Digite seu nome completo: ");
+
+    const primeiroNome = nomeCompleto.split(' ', 1)[0];
+    const quantidadeLetras = nomeCompleto.replace(/\s/g, '').length;
+    const segundaLetra = nomeCompleto.charAt(1);
+    const indiceA = nomeCompleto.replace(/\s/g, '').indexOf('a');
+    const ultimoIndiceA = nomeCompleto.replace(/\s/g, '').lastIndexOf('a');
+    const ultimasTresLetras = nomeCompleto.replace(/\s/g, '').slice(-3);
+    const palavras = nomeCompleto.replace(/\s/g, ', ');
+    const nomeMaiusculo = nomeCompleto.toUpperCase();
+    const nomeMinusculo = nomeCompleto.toLowerCase();
+
+    write(`Primeiro nome: ${primeiroNome}`);
+    write(`Quantidade de letras: ${quantidadeLetras}`);
+    write(`Segunda letra: ${segundaLetra}`);
+    write(`Indice da letra 'a': ${indiceA}`);
+    write(`Último indice da letra 'a': ${ultimoIndiceA}`);
+    write(`Últimas três letras: ${ultimasTresLetras}`);
+    write(`Palavras: ${palavras}`);
+    write(`Nome em maiúsculo: ${nomeMaiusculo}`);
+    write(`Nome em minúsculo: ${nomeMinusculo}`);
+
+  </script>
+</body>
+
+</html>
